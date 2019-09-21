@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo {
   float: left;
+  z-index: 989;
 }
 
 #header #logo h1 {
@@ -86,15 +87,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
+  z-index: 989;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
+  z-index: 989;
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
+  margin-top: -7px;
+  z-index: 989;
 }
 
 @media (max-width: 768px) {
@@ -108,14 +113,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-fixed {
   background: rgba(52, 59, 64, 0.9);
-  padding: 18px 0px 0px 0px;
+  padding: 19px 0px 0px 0px;
   height: 62px;
   transition: all 0.5s;
 }
 
 #header.header-double-fixed {
   background: rgba(52, 59, 64, 0.9) !important;
-  padding: 18px 0px 0px 0px !important;
+  padding: 19px 0px 0px 0px !important;
   height: 62px !important;
   transition: all 0.5s !important;
 }
@@ -276,9 +281,20 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+#nav-menu-container-2 {
+  float: right;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
   #nav-menu-container {
     display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #nav-menu-container-2 {
+    display: block;
   }
 }
 
@@ -352,11 +368,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
-  position: fixed;
-  right: 0;
-  top: 0;
+  margin-top: -5px;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  /* margin: 20px 20px 0 0; */
   border: 0;
   background: none;
   font-size: 24px;
@@ -370,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   #mobile-nav-toggle {
     display: inline;
   }
