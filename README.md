@@ -5,7 +5,7 @@
 - [x] Basic navigation
 - [ ] Fix home page responsiveness
 - [ ] Add links to footer
-- [ ] Homepage contents
+- [x] Homepage contents
 - [ ] Customise look
 - [ ] Redesign logo
 - [ ] Navigation from home
