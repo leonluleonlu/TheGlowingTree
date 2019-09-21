@@ -16,16 +16,49 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-p {
-  padding: 0;
-  margin: 0 0 30px 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  margin: 0 0 20px 0;
-  padding: 0;
 }
+
+.whiteBG {
+  background: #ffffff;
+}
+
+.greyBG {
+  background: #e6e6e6;
+}
+
+.darkBG {
+  background: #29292f;
+}
+
+.text-lighter {
+  color: #bebebe
+}
+
+@media (min-width: 1px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  p {
+    font-size: 1.17rem
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
 
 /*--------------------------------------------------------------
 # Header
@@ -406,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(24, 27, 29, 0.945);
   display: none;
 }
 
@@ -426,29 +459,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-/* Sections Header
---------------------------------*/
-.section-header .section-title {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.section-header .section-description {
-  text-align: center;
-  padding-bottom: 40px;
-  color: #999;
-}
 
 /* About Us Section
 --------------------------------*/
-#about {
-  background: #fff;
-  padding: 80px 0;
-}
 
 #about .about-container .background {
   min-height: 300px;
@@ -922,11 +935,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .copyright {
   text-align: center;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #ccc;
 }
