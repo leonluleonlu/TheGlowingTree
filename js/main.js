@@ -128,3 +128,13 @@ jQuery(document).ready(function ($) {
   // custom code
 
 });
+
+
+jQuery(window).load(function() {
+ 
+  /*
+      Stop carousel
+  */
+  $('.carousel').carousel('pause');
+
+});
