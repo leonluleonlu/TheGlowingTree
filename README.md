@@ -6,11 +6,11 @@
 - [x] Fix home page responsiveness
 - [ ] Add links to footer
 - [x] Homepage contents
-- [ ] Customise look
+- [x] Customise look
 - [ ] Redesign logo
 - [ ] Navigation from home
 - [ ] Contact system
-- [ ] Storey page
-- [ ] Status Quo page
+- [x] Storey page
+- [x] Status Quo page
 - [ ] Solution page
 - [ ] Sectional side navigation
