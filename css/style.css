@@ -95,6 +95,14 @@ h1, h2, h3, h4, h5, h6 {
 .text-tree-brown-light {
   color:#b1a06f!important
 }
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ffda37;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 166, 0, 0.404);
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
